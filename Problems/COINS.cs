@@ -37,7 +37,7 @@ public class COINS
 
         var res = i >= a + b + c
             ? i
-            : Div(a) + Div(b) + Div(c);
+            : Div(c) + Div(b) + Div(a);
 
         Cache[i] = res;
 
